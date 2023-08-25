@@ -1,0 +1,136 @@
+@import url("https://fonts.googleapis.com/css2?family=Titillium+Web:wght@300;400;700&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Poppins";
+}
+
+.navbody {
+  background-color: black;
+}
+
+header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: var(--mainColor); /* Use your custom variable here */
+  width: 75%;
+  margin: auto;
+  height: 80px;
+  padding: 0 2rem;
+  color: var(--textColor);
+}
+
+nav {
+  margin-top: 80px;
+  margin-left: -50%;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  font-size: 16px;
+  width: 200px;
+  font-weight: 400;
+  margin-left: 10%;
+}
+
+nav a:hover {
+  color: var(--secondaryColor); /* Use your custom variable here */
+}
+
+header .nav-btn {
+  padding: 5px;
+  cursor: pointer;
+  background: transparent;
+  border: none;
+  outline: none;
+  color: var(--textColor);
+  font-size: 1.8rem;
+  visibility: hidden;
+}
+
+header div,
+nav {
+  display: flex;
+  align-items: center;
+}
+
+.shopkart {
+  font-size: 40px;
+  font-family: sans-serif;
+  font-weight: 275px; /* This line might be a typo, should it be "font-weight: 700;" instead? */
+  color: rgba(255, 255, 255, 1);
+}
+
+.uline {
+  border: 5px solid red;
+  margin: auto;
+  height: 2px;
+  margin-top: 62px;
+  width: 100%;
+  color: white;
+  background-color: white;
+}
+
+@media only screen and (max-width: 1024px) {
+  header .nav-btn {
+    visibility: hidden;
+    
+  }
+
+  nav {
+    margin-top: 40px;
+    margin-left: 0%;
+  }
+
+  header nav {
+    visibility: hidden;
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 30%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 1.5rem;
+    background-color: var(--mainColor);
+    transform: translateY(-10vh);
+  }
+
+ 
+  nav a {
+    font-size: 1.5rem;
+    font-weight: 400;
+  }
+}
+
+@media all and (max-width: 391px) {
+  header .nav-btn {
+    visibility: visible;
+    opacity: 1; /* Set opacity to 1 for visibility */
+  }
+  .navbody {
+    width: 950px;
+  }
+   header .responsive_nav {
+    transition: ease-in-out;
+    visibility: visible; /* Show the navigation menu */
+    background-color: black;
+    width: 100%;
+    height: 100%;
+    position: fixed;
+  }
+
+  nav .nav-close-btn {
+    position: relative;
+    top: 2rem;
+    right: 2rem;
+  
+  }
+
+}
