@@ -2,6 +2,7 @@
 
 body{
   font-family: 'Poppins', sans-serif;
+ 
 }
   .mainbox {
     background-color: black;
@@ -135,11 +136,9 @@ body{
   }
   
   @media all and (max-width: 391px) {
-    body{
-      visibility: hidden;
-    }
     .mainbox {
       width: 950px;
+      /* visibility: hidden; */
     }
     .image-1 {
       margin-left: 85%;
@@ -151,6 +150,7 @@ body{
       margin-left: 20%;
       margin-top: 30%;
       font-size: 100px;
+      /* visibility: hidden; */
     }
     .num {
       margin-left: 50%;

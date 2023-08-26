@@ -35,25 +35,16 @@ function LinkNav() {
               name=""
               id=""
             >
-             
-  <option value=""  style={{ backgroundColor: "black", color: "white" }}>OUR PRODUCTS</option>
-  <option value="" style={{ backgroundColor: "black", color: "white" }}>
-    PRODUCT 1
-  </option>
-  <option value="" style={{ backgroundColor: "black", color: "white" }}>
-    PRODUCT 2
-  </option>
-  <option value="" style={{ backgroundColor: "black", color: "white" }}>
-    PRODUCT 3
-  </option>
-  <option value="" style={{ backgroundColor: "black", color: "white" }}>
-    PRODUCT 4
-  </option>
+              <option value="" style={{ backgroundColor: "black", color: "white" }}>OUR PRODUCTS</option>
+              <option value="" style={{ backgroundColor: "black", color: "white" }}>PRODUCT 1</option>
+              <option value="" style={{ backgroundColor: "black", color: "white" }}>PRODUCT 2</option>
+              <option value="" style={{ backgroundColor: "black", color: "white" }}>PRODUCT 3</option>
+              <option value="" style={{ backgroundColor: "black", color: "white" }}>PRODUCT 4</option>
             </select>
           </a>
           <a href="/#">CONTACT US</a>
         </nav>
-        <button className="nav-btn" onClick={toggleNavbar}>
+        <button className="nav-btn nav-close-btn" onClick={toggleNavbar}>
           {isNavOpen ? <FaTimes color="white" /> : <FaBars color="white" />}
         </button>
       </header>
