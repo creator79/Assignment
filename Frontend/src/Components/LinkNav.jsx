@@ -30,15 +30,25 @@ function LinkNav() {
                 outline: "none",
                 border: "none",
                 borderBottom: "1px solid white",
+                cursor:"pointer",
               }}
               name=""
               id=""
             >
-              <option value="">OUR PRODUCTS</option>
-              <option value="">PRODUCT 1</option>
-              <option value="">PRODUCT 2</option>
-              <option value="">PRODUCT 3</option>
-              <option value="">PRODUCT 4</option>
+             
+  <option value=""  style={{ backgroundColor: "black", color: "white" }}>OUR PRODUCTS</option>
+  <option value="" style={{ backgroundColor: "black", color: "white" }}>
+    PRODUCT 1
+  </option>
+  <option value="" style={{ backgroundColor: "black", color: "white" }}>
+    PRODUCT 2
+  </option>
+  <option value="" style={{ backgroundColor: "black", color: "white" }}>
+    PRODUCT 3
+  </option>
+  <option value="" style={{ backgroundColor: "black", color: "white" }}>
+    PRODUCT 4
+  </option>
             </select>
           </a>
           <a href="/#">CONTACT US</a>

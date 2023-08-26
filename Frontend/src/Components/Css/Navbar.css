@@ -1,3 +1,8 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&family=Tsukimi+Rounded&display=swap');
+
+body{
+  font-family: 'Poppins', sans-serif;
+}
 .topcontainer {
     background-color: #1a1a1a;
   }
