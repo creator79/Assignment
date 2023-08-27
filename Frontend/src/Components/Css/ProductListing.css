@@ -8,6 +8,37 @@ body{
   /* border: 1px solid red; */
   margin: auto;
 }
+.arrow{
+  z-index: 1;
+  width: 20px;
+  margin-left: 90%;
+}
+.carousel-navigation {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 10px;
+}
+
+.carousel-button {
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  font-size: 24px;
+  
+}
+
+.prev-button {
+  margin-right: 10px;
+  border: none;
+}
+
+.next-button {
+  margin-left: 10px;
+  border: none;
+ 
+}
+
 .newproducts {
   text-align: left;
   color: rgba(0, 0, 0, 1);
@@ -74,6 +105,8 @@ body{
 .pd-des {
   font-size: 14px;
   text-align: left;
+  height: 100px;
+overflow: hidden;
 }
 .pd-price {
   font-family: "Syne";
